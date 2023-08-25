@@ -281,7 +281,7 @@ const Quizapp = () => {
             <div className="row">
               <div className="col-md-6 mt-5">
                 <h1 className="text-center">Quiz Time!</h1>
-                <h3>Question 7</h3>
+                <h3>Question 8</h3>
                 <p>
                   <b>Who wrote the play "Romeo and Juliet"?</b>
                 </p>
