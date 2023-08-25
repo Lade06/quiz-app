@@ -17,6 +17,7 @@ const Quizapp = () => {
   const handleShowLogin = () => {
     setQuiz(true);
     setQuizTwo(false);
+    setQuizEleven(false);
   };
   const handleShowLoginTwo = () => {
     setQuiz(false);
@@ -370,7 +371,7 @@ const Quizapp = () => {
               <div className="col-md-6 mt-5">
                 {/* <h1 className="text-center">Great Job!</h1> */}
                 <div className="box bg-primary text-light p-5 text-center" width={"15em"} height={"15em"}>
-<h6>Great Job!</h6>
+<h6 onClick={handleShowLogin}>Great Job!</h6>
                 </div>
                 
               </div>
